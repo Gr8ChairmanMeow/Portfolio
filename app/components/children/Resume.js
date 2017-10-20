@@ -8,7 +8,11 @@ const Resume = (props) => (
             </div>
             <div className="panel-body">
               {/*<img src="assets/images/Resume.png" id="rsmImg" />*/}
-              <embed src="public/assets/images/Resume.pdf" id="rsmPDF" type="application/pdf" height="375"/>
+              <object data="public/assets/images/Resume.pdf" id="rsmPDF" type="application/pdf" height="375">
+
+              	<img src="public/assets/images/Resume.png" id="rsmPDF" />
+
+              </object>
             </div>
           </div>
 )
