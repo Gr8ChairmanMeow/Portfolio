@@ -15,7 +15,7 @@ const Main = (props) => (
             <Link to="/Resume"><div className="divBorder bttnTwo">~Resume</div></Link>
             <Link to="/Child1"><div className="divBorder bttnThree">~Portfolio</div></Link>
             <Link to="/Child2"><div className="divBorder bttnFour">~Contact</div></Link>
-            <img src="assets/images/losAngeles.gif" alt="LosAngeles"/>
+            <img src="public/assets/images/losAngeles.gif" alt="LosAngeles"/>
           </div>
 
           <div id="filler" className="col-xs-12 col-md-2">
