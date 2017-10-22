@@ -23,6 +23,11 @@ var IndexRoute = router.IndexRoute;
 import Main from "../components/Main";
 import About from "../components/children/About";
 import Resume from "../components/children/Resume";
+import Projects from "../components/children/Projects";
+import Project1 from "../components/children/grandchildren/Project1";
+import Project2 from "../components/children/grandchildren/Project2";
+import Project3 from "../components/children/grandchildren/Project3";
+import Project4 from "../components/children/grandchildren/Project4";
 // var Child1 = require("../components/children/Child1");
 import Child1 from "../components/children/Child1";
 // var Child2 = require("../components/children/Child2");
@@ -39,6 +44,15 @@ module.exports = (
     <Route path="/" component={Main}>
       <Route path="About" component={About} />
       <Route path="Resume" component={Resume} />
+      <Route path="Projects" component={Projects} >
+        {/* Child1 has its own Grandchildren options */}
+        <Route path="Project1" component={Project1} />
+        <Route path="Project2" component={Project2} />
+        <Route path="Project3" component={Project3} />
+        <Route path="Project4" component={Project4} />
+
+        <IndexRoute component={Project1} />
+      </Route>
 
       {/* If user selects Child1 then show the appropriate component*/}
       <Route path="Child1" component={Child1} >

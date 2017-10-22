@@ -13,7 +13,7 @@ const Main = (props) => (
           <div id="menu" className="divBorder col-xs-12 col-md-5">
             <Link to="/About"><div className="divBorder bttnOne">~About</div></Link>
             <Link to="/Resume"><div className="divBorder bttnTwo">~Resume</div></Link>
-            <Link to="/Child1"><div className="divBorder bttnThree">~Portfolio</div></Link>
+            <Link to="/Projects"><div className="divBorder bttnThree">~Projects</div></Link>
             <Link to="/Child2"><div className="divBorder bttnFour">~Contact</div></Link>
             <img src="public/assets/images/losAngeles.gif" alt="LosAngeles"/>
           </div>
