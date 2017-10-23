@@ -29,6 +29,7 @@ import Project1 from "../components/children/grandchildren/Project1";
 import Project2 from "../components/children/grandchildren/Project2";
 import Project3 from "../components/children/grandchildren/Project3";
 import Project4 from "../components/children/grandchildren/Project4";
+import Project5 from "../components/children/grandchildren/Project5";
 // var Child1 = require("../components/children/Child1");
 import Child1 from "../components/children/Child1";
 // var Child2 = require("../components/children/Child2");
@@ -51,6 +52,7 @@ module.exports = (
         <Route path="Project2" component={Project2} />
         <Route path="Project3" component={Project3} />
         <Route path="Project4" component={Project4} />
+        <Route path="Project5" component={Project5} />
 
         <IndexRoute component={Project1} />
       </Route>

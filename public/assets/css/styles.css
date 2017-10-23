@@ -17,7 +17,7 @@
 }
 
 #menuHidden {
-	position:absolute;
+	position:fixed;
 	right:28%;
 	z-index:10;
 }
