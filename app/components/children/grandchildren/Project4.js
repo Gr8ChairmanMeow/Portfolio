@@ -12,7 +12,7 @@ const Project4 = (props) => (
 	  		</a>
 	  		<hr/>
         	<ul>
-            <li>Stopwatch-based "Trivia" Game.</li>
+            <li>Timer-based "Trivia" Game.</li>
         		<li>jQuery/Javascript</li>
         		<li>HTML/CSS/Bootstrap</li>
             <li>Dynamic HTML DOM form</li>
