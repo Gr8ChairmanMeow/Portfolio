@@ -23,6 +23,7 @@ var IndexRoute = router.IndexRoute;
 import Main from "../components/Main";
 import About from "../components/children/About";
 import Resume from "../components/children/Resume";
+import Contact from "../components/children/Contact";
 import Projects from "../components/children/Projects";
 import Project1 from "../components/children/grandchildren/Project1";
 import Project2 from "../components/children/grandchildren/Project2";
@@ -53,6 +54,7 @@ module.exports = (
 
         <IndexRoute component={Project1} />
       </Route>
+      <Route path="Contact" component={Contact} />
 
       {/* If user selects Child1 then show the appropriate component*/}
       <Route path="Child1" component={Child1} >
@@ -69,7 +71,7 @@ module.exports = (
       <Route path="Child2" component={Child2} />
 
       {/* If user selects any other path... we get the Home Route */}
-      <IndexRoute component={Child1} />
+      <IndexRoute component={About} />
 
     </Route>
   </Router>

@@ -1,7 +1,7 @@
 // Include React
 import React, { Component } from 'react';
 
-const Project4 = (props) => (
+const Project3 = (props) => (
       <div className="panel panel-warning">
         <div className="panel-heading">
           <h3 className="panel-title">React NYT Scraper</h3>
@@ -22,4 +22,4 @@ const Project4 = (props) => (
       </div>
 )
 
-export default Project4;
+export default Project3;

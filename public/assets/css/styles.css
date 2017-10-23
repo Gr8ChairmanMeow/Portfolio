@@ -8,6 +8,48 @@
 	color:white;
 }
 
+.contact {
+	font-size:20px;
+}
+
+#menuImg {
+	width:50px;
+}
+
+#menuHidden {
+	position:absolute;
+	right:28%;
+	z-index:10;
+}
+
+/* Hidden menu buttons */
+#menuHidden .bttnOne{
+	top:5%;
+}
+
+#menuHidden .bttnTwo{
+	top:27%;
+}
+
+#menuHidden .bttnThree{
+	top:49%;
+}
+
+#menuHidden .bttnFour{
+	top:71%;
+}
+
+.icons {
+	text-align:center;
+}
+
+.icons a img {
+	border-radius:0.5em;
+	width:50px;
+	margin:0 1em;
+	box-shadow: 10px 10px 5px #888888;
+}
+
 ul {
 	list-style:disc;
 	display:table;
@@ -55,6 +97,12 @@ body {
 	background-color:white;
 	padding:0.5em;
 	display:inline-block;
+}
+
+span.divBorder {
+	position:relative;
+	right:-10%;
+	display:none;
 }
 
 .divBorder .divBorder{
@@ -207,11 +255,24 @@ body {
 	.panel-body hr {
 		display:block;
 	}
+
 }
 
 @media only screen and (min-width: 750px) and (min-height: 1000px) {
 	#about {
 		font-size:21px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#menuHidden {
+		right:25%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#menuHidden {
+		right:23%;
 	}
 }
 
@@ -236,6 +297,12 @@ body {
 @media only screen and (max-height: 500px) {
 	#menu, #filler {
 		display:none;
+	}
+	span.divBorder {
+		display:inline-block;
+	}
+	.footer {
+		padding:0.5em;
 	}
 }
 
