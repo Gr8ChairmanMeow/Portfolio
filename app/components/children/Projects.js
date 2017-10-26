@@ -22,6 +22,7 @@ class Projects extends Component {
                 <Link to="/Projects/Project3"><button className="btn btn-default btn-sm">Project #3</button></Link>
                 <Link to="/Projects/Project4"><button className="btn btn-default btn-sm">Project #4</button></Link>
                 <Link to="/Projects/Project5"><button className="btn btn-default btn-sm">Project #5</button></Link>
+                <Link to="/Projects/Project6"><button className="btn btn-default btn-sm">Project #6</button></Link>
               </p>
 
               {/* This code will allow us to automatically dump the correct GrandChild component */}

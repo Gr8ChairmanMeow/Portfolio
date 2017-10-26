@@ -4,19 +4,17 @@ import React, { Component } from 'react';
 const Project3 = (props) => (
       <div className="panel panel-warning">
         <div className="panel-heading">
-          <h3 className="panel-title">LendBiz</h3>
+          <h3 className="panel-title">Liri - Siri Clone</h3>
         </div>
         <div className="panel-body">
-          <a href="https://gr8chairmanmeow.github.io/lendBiz/" target="_blank">
-        <img src="public/assets/images/LendBiz.png" alt="LendBiz" className="p_img" />
-        </a>
+            <iframe className="p_img" src="https://www.youtube.com/embed/orKsqnsgDiI?rel=0" frameBorder="0" allowFullScreen></iframe>
+        <br/>
         <hr/>
           <ul>
-            <li>Front-end lending platform UI.</li>
-            <li>jQuery/Javascript</li>
-            <li>HTML/CSS/Bootstrap</li>
-            <li>Javascript/HTML DOM form</li>
-            <li>Mobile-responsive.</li>
+            <li>Backend NodeJS app</li>
+            <li>NPM Pakcages</li>
+            <li>Multiple API</li>
+            <li>MySQL Database</li>
           </ul>
         </div>
       </div>
