@@ -12,7 +12,7 @@ const Project3 = (props) => (
         <hr/>
           <ul>
             <li>Backend NodeJS app</li>
-            <li>NPM Pakcages</li>
+            <li>NPM Packages</li>
             <li>Multiple API</li>
             <li>MySQL Database</li>
           </ul>

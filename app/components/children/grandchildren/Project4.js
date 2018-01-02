@@ -7,7 +7,7 @@ const Project4 = (props) => (
           <h3 className="panel-title">LendBiz</h3>
         </div>
         <div className="panel-body">
-          <a href="https://gr8chairmanmeow.github.io/lendBiz/" target="_blank">
+          <a href="https://javieravitia.github.io/lendBiz/" target="_blank">
         <img src="public/assets/images/LendBiz.png" alt="LendBiz" className="p_img" />
         </a>
         <hr/>

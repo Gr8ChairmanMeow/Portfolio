@@ -4,18 +4,23 @@ import React, { Component } from 'react';
 const Project1 = (props) => (
       <div className="panel panel-warning">
         <div className="panel-heading">
-          <h3 className="panel-title">L.A. Metro Event Finder</h3>
+          <h3 className="panel-title">Full-Stack Javascript Task App</h3>
         </div>
         <div className="panel-body">
-	        <a href="http://eltonhsu.com/LA-Metro-Stations-Helper/" target="_blank">
-				<img src="public/assets/images/metro.jpg" alt="MetroLA" className="p_img" />
+	        <a href="https://fullstacktaskapp.herokuapp.com/" target="_blank">
+				<img src="public/assets/images/full-stack-javascript-developer.jpg" alt="FullStackJS" className="p_img" />
 	  		</a>
 	  		<hr/>
         	<ul>
-        		<li>Google Maps web app</li>
-        		<li>jQuery/Javascript</li>
-        		<li>HTML/CSS/Bootstrap</li>
-        		<li>Multi-AJAX call (w/ promise)</li>
+            <li>Full-Stack Web App</li>
+            <li>ReactJS Front-End</li>
+            <li>ExpressJS Server</li>
+            <li>NodeJS Back-End</li>
+            <li>MySQL Database</li>
+            <li>Sequelize ORM</li>
+            <li>HTML/CSS/Bootstrap Styling</li>
+        		<li>jQuery/Javascript Functions</li>
+        		<li>AJAX calls to Database</li>
         	</ul>
         </div>
       </div>

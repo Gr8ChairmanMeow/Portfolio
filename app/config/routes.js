@@ -31,12 +31,6 @@ import Project3 from "../components/children/grandchildren/Project3";
 import Project4 from "../components/children/grandchildren/Project4";
 import Project5 from "../components/children/grandchildren/Project5";
 import Project6 from "../components/children/grandchildren/Project6";
-// var Child1 = require("../components/children/Child1");
-import Child1 from "../components/children/Child1";
-// var Child2 = require("../components/children/Child2");
-import Child2 from "../components/children/Child2";
-import GrandChild1 from "../components/children/grandchildren/GrandChild1";
-import GrandChild2 from "../components/children/grandchildren/GrandChild2";
 
 // Export the Routes
 module.exports = (
@@ -48,7 +42,7 @@ module.exports = (
       <Route path="About" component={About} />
       <Route path="Resume" component={Resume} />
       <Route path="Projects" component={Projects} >
-        {/* Child1 has its own Grandchildren options */}
+      
         <Route path="Project1" component={Project1} />
         <Route path="Project2" component={Project2} />
         <Route path="Project3" component={Project3} />
@@ -59,20 +53,6 @@ module.exports = (
         <IndexRoute component={Project1} />
       </Route>
       <Route path="Contact" component={Contact} />
-
-      {/* If user selects Child1 then show the appropriate component*/}
-      <Route path="Child1" component={Child1} >
-
-        {/* Child1 has its own Grandchildren options */}
-        <Route path="GrandChild1" component={GrandChild1} />
-        <Route path="GrandChild2" component={GrandChild2} />
-
-        <IndexRoute component={GrandChild1} />
-
-      </Route>
-
-      {/* If user selects Child2 then show the appropriate component*/}
-      <Route path="Child2" component={Child2} />
 
       {/* If user selects any other path... we get the Home Route */}
       <IndexRoute component={About} />

@@ -7,7 +7,7 @@ const Project6 = (props) => (
           <h3 className="panel-title">Lonely City</h3>
         </div>
         <div className="panel-body">
-          <a href="https://gr8chairmanmeow.github.io/TriviaGame/" target="_blank">
+          <a href="https://javieravitia.github.io/TriviaGame/" target="_blank">
         <img src="public/assets/images/TriviaGame.png" alt="LonelyCity" className="p_img" />
         </a>
         <hr/>

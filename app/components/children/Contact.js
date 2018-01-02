@@ -16,7 +16,7 @@ const Contact = (props) => (
 
                 <a href="https://stackoverflow.com/users/8177508/javier-avitia" target="_blank"><img src="public/assets/images/stackoverflow.png" alt="StackOverflow" height="50" width="50" /></a>
 
-                <a href="https://github.com/Gr8ChairmanMeow" target="_blank"><img src="public/assets/images/github.png" alt="GitHub" height="50" width="50" /></a>
+                <a href="https://github.com/JavierAvitia" target="_blank"><img src="public/assets/images/github.png" alt="GitHub" height="50" width="50" /></a>
               </div>
 
             </div>
