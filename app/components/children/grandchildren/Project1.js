@@ -21,6 +21,7 @@ const Project1 = (props) => (
             <li>HTML/CSS/Bootstrap Styling</li>
         		<li>jQuery/Javascript Functions</li>
         		<li>AJAX calls to Database</li>
+            <li>Guest login: guest | 123#Abc</li>
         	</ul>
         </div>
       </div>
