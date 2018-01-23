@@ -4,17 +4,24 @@ import React, { Component } from 'react';
 const Project3 = (props) => (
       <div className="panel panel-warning">
         <div className="panel-heading">
-          <h3 className="panel-title">Liri - Siri Clone</h3>
+          <h3 className="panel-title">Full-Stack Javascript Task App</h3>
         </div>
         <div className="panel-body">
-            <iframe className="p_img" src="https://www.youtube.com/embed/orKsqnsgDiI?rel=0" frameBorder="0" allowFullScreen></iframe>
-        <br/>
+          <a href="https://fullstacktaskapp.herokuapp.com/" target="_blank">
+        <img src="public/assets/images/full-stack-javascript-developer.jpg" alt="FullStackJS" className="p_img" />
+        </a>
         <hr/>
           <ul>
-            <li>Backend NodeJS app</li>
-            <li>NPM Packages</li>
-            <li>Multiple API</li>
+            <li>Full-Stack Web App</li>
+            <li>ReactJS Front-End</li>
+            <li>ExpressJS Server</li>
+            <li>NodeJS Back-End</li>
             <li>MySQL Database</li>
+            <li>Sequelize ORM</li>
+            <li>HTML/CSS/Bootstrap Styling</li>
+            <li>jQuery/Javascript Functions</li>
+            <li>AJAX calls to Database</li>
+            <li>Guest login: guest | 123#Abc</li>
           </ul>
         </div>
       </div>
